@@ -267,7 +267,7 @@ public class MGUA extends Application {
     }
 
     public XYChart.Series getSeries(String name, int numResX, int numResY) throws NoSquareException, IOException {
-        // drawing diagram with JFreeChart library 
+       
         Matrix[] matrices;
 
         matrices = getGMDHresult();
