@@ -348,7 +348,7 @@ public class MGUA extends Application {
         return data;
     }
 
-    private static double[][] getData() { // create data totest algorithm
+    private static double[][] getData() { // create data to test algorithm
         double[][] data = new double[7][3];
         double delta = 1.0;
         data[0][0] = -2;
